@@ -1,0 +1,145 @@
+{
+    "key": "group_61f3714b19b48",
+    "title": "Header Options",
+    "fields": [
+        {
+            "key": "field_61f37194382c8",
+            "label": "Header address",
+            "name": "header_address",
+            "type": "text",
+            "instructions": "write  adress",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "65\/A, 17th floor, Kings land, New York",
+            "placeholder": "write your office adress",
+            "prepend": "",
+            "append": "",
+            "maxlength": 100
+        },
+        {
+            "key": "field_61f371e0382c9",
+            "label": "Header Email",
+            "name": "header_email",
+            "type": "email",
+            "instructions": "write email",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "info@consulting.com",
+            "placeholder": "write your office email",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_61f3771abe5fe",
+            "label": "Header Socials",
+            "name": "header_socials",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 4,
+            "layout": "table",
+            "button_label": "Add Header Social",
+            "sub_fields": [
+                {
+                    "key": "field_61f3775dbe5ff",
+                    "label": "Header social links",
+                    "name": "header_social_links",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_61f3785d4bc91",
+                    "label": "Header socials icon",
+                    "name": "header_socials_icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "fab fa-linkedin-in": "Linkedin",
+                        "fab fa-twitter": "Twitter",
+                        "fab fa-facebook-f": "Facebook",
+                        "fab fa-google-plus-g": "google-plus"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_61f3c53016308",
+            "label": "Header address Code",
+            "name": "header_address_code",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Rosemead, CA 91770",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-header"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1643365903
+}

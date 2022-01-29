@@ -1,0 +1,22 @@
+/*
+Theme Name: Buson
+Theme URI: htts://jsbangladesh.org
+Author: Sujon Rahman
+Author URI: htts://jsbangladesh.org/buson
+Description: Theme Description
+Text Domain: buson
+*/
+
+
+.widget ul li a{
+    color: blue;
+  } 
+
+.main-header .main-menu ul li.current-menu-item a {
+    color: #ff656a;
+  }
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    clear: both;
+    list-style: disc;
+  }
