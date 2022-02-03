@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-not-found">
-                        <h1> We are sorry, Nothing fond here!  </h1>
+                        <h1> We are sorry, Nothing found here!  </h1>
                         <a href="<?php echo site_url();?>" class="btn btn-primary">Back to Home</a>
                     </div>
                 </div>
