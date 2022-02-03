@@ -6,7 +6,7 @@
             "key": "field_61f2750417b27",
             "label": "Testimonial rating",
             "name": "testimonial_rating",
-            "type": "text",
+            "type": "select",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -15,11 +15,20 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "choices": {
+                "<i class=\"fas fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i>": "1 star",
+                "<i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i>": "2 stars",
+                "<i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"far fa-star\"><\/i><i class=\"far fa-star\"><\/i>": "3 stars",
+                "<i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"far fa-star\"><\/i>": "4 stars",
+                "<i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i><i class=\"fas fa-star\"><\/i>": "5 stars"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
         },
         {
             "key": "field_61f2751217b28",
@@ -78,5 +87,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1643358958
+    "modified": 1643881542
 }

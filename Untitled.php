@@ -2,7 +2,10 @@
 
 
 
-    <?php     
-        $category = get_the_category(); 
-        echo $category[0]->cat_name;      
-    ?>
+
+                <?php if($testimonial_rating){ ?>
+                <span> <?php echo $testimonial_rating; ?> </span> 
+                <?php } ?>
+
+
+                        

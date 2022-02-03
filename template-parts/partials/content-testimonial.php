@@ -2,8 +2,7 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-9 col-lg-9 col-md-9">
-                            <div class="h1-testimonial-active">
-
+                        <div class="h1-testimonial-active">
                                 <?php
                                     $args = array(
                                         'post_type' => 'testimonials',
@@ -26,21 +25,25 @@
                                     <!-- Testimonial Content -->
                                     <div class="testimonial-caption text-center">
                                         <p> <?php the_title() ?> </p>
+
                                         <!-- Rattion -->
                                         <div class="testimonial-ratting">
-                                            <?php if($testimonial_rating){ ?>
-                                            <span> <?php echo $testimonial_rating; ?> </span>
-                                            <?php } ?>
+                                            <?php 
+                                                if(isset($testimonial_rating)){
+                                                    echo ($testimonial_rating);
+                                                }else "No Rating here";
+                                             ?>
                                         </div>
+                                        
                                         <div class="rattiong-caption">
                                             <?php 
                                                     if($testimonial_author){
-
                                                 ?>
                                             <span> <?php echo $testimonial_author; ?> <span> <?php } ?>-
                                                     <?php if ($testimonial_institution){ echo $testimonial_institution;} ?>
                                                 </span> </span>
                                         </div>
+
                                     </div>
                                 </div>
                                 <?php
@@ -48,7 +51,11 @@
                                     wp_reset_postdata();
                                 ?>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+
+
+        
